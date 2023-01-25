@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="general.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css"
+      integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14="
+      crossorigin=""
+    />
+    <script
+      defer
+      src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"
+      integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg="
+      crossorigin=""
+    ></script>
+    <script defer src="script.js"></script>
+    <title>Luthier v. Harten</title>
+  </head>
+  <body>
+    <section class="section-hero">
+      <div class="container">
+        <header class="header">
+          <div class="logo-box">
+            <img
+              class="logo"
+              alt="Omnifood Logo"
+              src="img/logo violin transparent.png"
+            />
+            <p class="company-name">Luthier van Harten</p>
+          </div>
+          <nav class="main-nav">
+            <ul class="main-nav-list">
+              <li><a class="main-nav-link" href="#koop">Verkoop</a></li>
+              <li><a class="main-nav-link" href="#koop">Verhuur</a></li>
+              <li><a class="main-nav-link" href="#author">Over ons</a></li>
+              <li><a class="main-nav-link" href="#how">Diensten</a></li>
+              <li><a class="main-nav-link nav-cta" href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+
+          <button class="btn-mobile-nav">
+            <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+            <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+          </button>
+
+        </header>
+        <div class="hero-grid-1 grid grid--2-cols">
+          <div class="hero-heading-box">
+            <h1 class="hero-heading-content">Welkom bij Luthier van Harten</h1>
+          </div>
+        </div>
+
+        <div class="hero-grid-2 grid grid--2-cols">
+          <div></div>
+          <div class="hero-paragraph-box">
+            <p class="hero-paragraph-content">Familiebedrijf sinds 1871</p>
+          </div>
+        </div>
+
+        <div class="hero-grid-3">
+          <div class="hero-final-box">
+            <p class="hero-final-content">Vind hier jouw klank</p>
+            <ion-icon class="icon-arrow" name="arrow-down-outline"></ion-icon>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION KOOP -->
+
+    <section class="section-koop" id="koop">
+      <div class="section-koop-header">
+        <h2 class="section-koop-header-content">
+          De beste kwaliteit voor iedere prijsklasse
+        </h2>
+      </div>
+
+      <div class="container-2 grid-koop">
+        <!-- CARD 1 -->
+
+        <div class="viool-koop">
+          <p class="viool-koop-title">
+            Stentor Elysia Viool<span class="line-break">&nbsp;</span>
+          </p>
+          <div class="card-flex">
+          <div class="img-box">
+            <img
+              class="viool-koop-img"
+              src="/img/violin-01.png"
+              alt="Stentor Elysia Violin"
+            />
+          </div>
+
+          <div class="viool-koop-content">
+            <ul class="viool-koop-attributes">
+              <div class="flex-center">
+                <li class="viool-koop-attribute">
+                  <ion-icon
+                    class="viool-koop-icon bronze"
+                    name="ribbon-outline"
+                  ></ion-icon
+                  ><span>Beginner</span>
+                </li>
+                <li class="viool-koop-attribute">
+                  <ion-icon
+                    class="viool-koop-icon bronze"
+                    name="flag-outline"
+                  ></ion-icon
+                  ><span>UK 2018</span>
+                </li>
+                <li class="viool-koop-attribute">
+                  <ion-icon
+                    class="viool-koop-icon bronze"
+                    name="logo-euro"
+                  ></ion-icon
+                  ><span>439,00</span>
+                </li>
+              </div>
+            </ul>
+          </div>
+        </div>
+        </div>
+
+        <!-- CARD 2 -->
+
+        <div class="viool-koop">
+          <p class="viool-koop-title query-pad-bot">Otto Jos. Klier - Guarneri 68</p>
+          <div class="card-flex">
+          <div class="img-box">
+            <img
+              class="viool-koop-img"
+              src="/img/violin-2.png"
+              alt="Stentor Elysia Violin"
+            />
+          </div>
+
+          <div class="viool-koop-content">
+            <ul class="viool-koop-attributes">
+              <div class="flex-center">
+                <li class="viool-koop-attribute">
+                  <ion-icon
+                    class="viool-koop-icon _silver"
+                    name="ribbon-outline"
+                  ></ion-icon
+                  ><span>Gevorderd</span>
+                </li>
+                <li class="viool-koop-attribute">
+                  <ion-icon
+                    class="viool-koop-icon _silver"
+                    name="flag-outline"
+                  ></ion-icon
+                  ><span>Germany 1996</span>
+                </li>
+                <li class="viool-koop-attribute">
+                  <ion-icon
+                    class="viool-koop-icon _silver"
+                    name="logo-euro"
+                  ></ion-icon
+                  ><span>922,00</span>
+                </li>
+              </div>
+            </ul>
+          </div>
+        </div>
+        </div>
+
+        <!-- CARD 3 -->
+
+        <div class="viool-koop">
+          <p class="viool-koop-title query-pad-bot">Klaus Heffner - 7/3 Stradivari Model</p>
+          <div class="card-flex">
+          <div class="img-box">
+            <img
+              class="viool-koop-img"
+              src="/img/violin-3.png"
+              alt="Stentor Elysia Violin"
+            />
+          </div>
+
+          <div class="viool-koop-content">
+            <ul class="viool-koop-attributes">
+              <div class="flex-center">
+                <li class="viool-koop-attribute">
+                  <ion-icon
+                    class="viool-koop-icon _gold"
+                    name="ribbon-outline"
+                  ></ion-icon
+                  ><span>Professioneel</span>
+                </li>
+                <li class="viool-koop-attribute">
+                  <ion-icon
+                    class="viool-koop-icon _gold"
+                    name="flag-outline"
+                  ></ion-icon
+                  ><span>Germany 2006</span>
+                </li>
+                <li class="viool-koop-attribute">
+                  <ion-icon
+                    class="viool-koop-icon _gold last-icon"
+                    name="logo-euro"
+                  ></ion-icon
+                  ><span>1960,00</span>
+                </li>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </div>
+      </div>
+
+      <div class="btn-container">
+        <a href="#" class="btn btn--outline">Bekijk het gehele assortiment</a>
+      </div>
+    </section>
+
+    <section class="section-author" id="author">
+
+      <div class="author-container author-grid">
+        <div class="author-img-box">
+          <picture>
+            <source srcset="img/vanHarten2.webp" type="image/webp" />
+            <source srcset="img/vanHarten2-oxi.png" type="image/png" />
+
+            <img
+              class="author-img"
+              alt="Emile van Harten in his workshop"
+              src="img/vanHarten2.png"
+            />
+          </picture>
+        </div>
+        <div class="author-text-box">
+          <h2 class="author-text-header">Emile van Harten</h2>
+     
+
+               <p class="author-text-para">
+                Praktisch opgegroeid in de vioolmaker's winkel van mijn oom, ben ik vanaf mijn achtste al bezig met het vak. Hij heeft mij geleerd dat het runnen van een luthier's winkel niet enkel om het instrument gaat, maar eveneens om de bespeler daarvan. Nadat ik in 1983 mijn opleiding aan de Newark School of Violin Making had afgerond, kwam ik terug naar Amsterdam om mijn eigen winkel en werkplaats op te richten waar ik een geweldige community heb weten te creëren.
+              </p>
+        </div>
+      </div>
+    
+
+
+      <!-- <div class="position-container">
+        <div class="author-container-2 flex">
+          <div class="author-box grid">
+            <div class="author-text-box">
+              <h2 class="author-text-header">Emile van Harten</h2>
+     
+
+               <p class="author-text-para">
+                Praktisch opgegroeid in de vioolmaker's winkel van mijn oom, ben ik vanaf mijn achtste al bezig met het vak. Hij heeft mij geleerd dat het runnen van een luthier's winkel niet enkel om het instrument gaat, maar eveneens om de bespeler daarvan. Nadat ik in 1983 mijn opleiding aan de Newark School of Violin Making had afgerond, kwam ik terug naar Amsterdam om mijn eigen winkel en werkplaats op te richten waar ik een geweldige community heb weten te creëren.
+              </p>
+
+    
+
+            </div>
+            <div class="author-img-2"></div>
+
+          </div>
+        </div>
+
+
+      </div> -->
+    </section>
+
+    <section class="section-how" id="how">
+      <div class="container-diensten">
+        <span class="subheading">Diensten</span>
+        <h2 class="heading-secondary">
+          Voor al uw benodigdheden omtrent violen
+        </h2>
+      </div>
+
+      <!-- STEP 1 -->
+
+      <div class="container-diensten-2 grid grid--2-cols grid--center-v">
+        <div class="step-text-box">
+          <h3 class="heading-tertiary">Reparatie & Onderhoud</h3>
+          <p class="step-description">
+            Of het nou een geknapte snaar betreft, een kapotte staartstuk of een
+            gebroken hals, bij luthier van Harten bent u aan het juiste adres.
+            Onze missie is om iedere viool die hier binnenkomt zo goed mogelijk
+            te laten klinken.
+          </p>
+        </div>
+        <div class="step-img-box">
+          <picture>
+            <source srcset="img/violin-repair.webp" type="image/webp" />
+
+            <img
+            class="step-img"
+            src="img/violin-repair.jpg"
+            alt="Viool reparatie"
+          />
+          </picture>
+        </div>
+
+        <!-- STEP 2 -->
+
+        <div class="step-img-box">
+          <picture>
+            <source srcset="img/violin-huur2.webp" type="image/webp" />
+            <source srcset="img/violin-huur2-oxi.png" type="image/png" />
+
+            <img
+            class="step-img"
+            src="img/violin-huur2.png"
+            alt="Two violions in the shop window"
+            />
+          </picture>
+        </div>
+        <div class="step-text-box">
+          <h3 class="heading-tertiary">Verhuur</h3>
+          <p class="step-description">
+            Bij ons vindt u geschikte violen te huur in iedere maat, geschikt
+            voor zowel kinderen van iedere leeftijd als voor zij die op latere
+            leeftijd deze prachtige hobby willen oppakken. Daarnaast zijn al
+            onze koop-violen ook te huur voor ten minste drie maanden om
+            erachter te komen of deze echt bij u zou passen.
+          </p>
+        </div>
+
+        <!-- STEP 3 -->
+
+        <div class="step-text-box">
+          <h3 class="heading-tertiary">Community</h3>
+          <p class="step-description">
+            Bij luthier van Harten zijn wij niet alleen geinteresseerd in het
+            repareren van violen, maar ook het samenbrengen van mensen die onze
+            passie voor muziek delen. Kijk op facebook of instagram voor onze
+            evenementen of kom langs voor een praatje en een kopje koffie.
+          </p>
+        </div>
+        <div class="step-img-box">
+          <picture>
+            <img
+            class="step-img"
+            src="img/violin-community.jpg"
+            alt="People sitting and watching an event in the violin shop"
+          />
+          </picture>
+        </div>
+      </div>
+
+      <!-- Voor Mobile Query (544 px) -->
+      <!-- Step 1 -->
+      <div class="container-diensten-3 grid-diensten grid--center-v hidden-2">
+        <div class="step-text-box">
+          <h3 class="heading-tertiary">Reparatie & Onderhoud</h3>
+
+          <div class="step-img-box">
+            <picture>
+              <source srcset="img/violin-repair.webp" type="image/webp" />
+  
+              <img
+              class="step-img"
+              src="img/violin-repair.jpg"
+              alt="Viool reparatie"
+            />
+            </picture>
+          </div>
+
+          <p class="step-description">
+            Of het nou een geknapte snaar betreft, een kapotte staartstuk of een
+            gebroken hals, bij luthier van Harten bent u aan het juiste adres.
+            Onze missie is om iedere viool die hier binnenkomt zo goed mogelijk
+            te laten klinken.
+          </p>
+        </div>
+
+
+        <!-- STEP 2 -->
+
+        <div class="step-text-box">
+          <h3 class="heading-tertiary">Verhuur</h3>
+          <div class="step-img-box">
+            <picture>
+              <source srcset="img/violin-huur2.webp" type="image/webp" />
+              <source srcset="img/violin-huur2-oxi.png" type="image/png" />
+  
+              <img
+              class="step-img"
+              src="img/violin-huur2.png"
+              alt="Two violions in the shop window"
+              />
+            </picture>
+          </div>
+          <p class="step-description">
+            Bij ons vindt u geschikte violen te huur in iedere maat, geschikt
+            voor zowel kinderen van iedere leeftijd als voor zij die op latere
+            leeftijd deze prachtige hobby willen oppakken. Daarnaast zijn al
+            onze koop-violen ook te huur voor ten minste drie maanden om
+            erachter te komen of deze echt bij u zou passen.
+          </p>
+        </div>
+
+        <!-- STEP 3 -->
+
+        <div class="step-text-box">
+          <h3 class="heading-tertiary">Community</h3>
+          <div class="step-img-box">
+            <img
+              class="step-img"
+              src="img/violin-community.jpg"
+              alt="Mobile App Delivery Screen"
+            />
+          </div>
+          <p class="step-description">
+            Bij luthier van Harten zijn wij niet alleen geinteresseerd in het
+            repareren van violen, maar ook het samenbrengen van mensen die onze
+            passie voor muziek delen. Kijk op facebook of instagram voor onze
+            evenementen of kom langs voor een praatje en een kopje koffie.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-contact" id="contact">
+      <div class="container-contact-header">
+        <span class="subheading-contact">Contact</span>
+        <h2 class="heading-secondary-contact">
+          Kom langs op de Sint Antoniesbreestraat 368
+        </h2>
+      </div>
+      <div class="container-contact">
+        <div class="contact-box">
+          <div id="map"></div>
+          <div class="contact-opening">
+            <div class="contact-opening-header-box">
+              <p class="contact-opening-header">Openingstijden</p>
+            </div>
+
+            <div class="contact-opening-list-box">
+              <ul class="contact-opening-list">
+                <li class="contact-opening-list-item">Maandag: Gesloten</li>
+                <li class="contact-opening-list-item">
+                  Dinsdag: 09:00 - 17:00
+                </li>
+                <li class="contact-opening-list-item">
+                  Woensdag: 09:00 - 21:00
+                </li>
+                <li class="contact-opening-list-item">
+                  Donderdag: 09:00 - 17:00
+                </li>
+                <li class="contact-opening-list-item">
+                  Vrijdag: 09:00 - 21:00
+                </li>
+                <li class="contact-opening-list-item">
+                  Zaterdag: 10:00 - 17:00
+                </li>
+                <li class="contact-opening-list-item">Zondag: Gesloten</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-box-2 grid-contact-box">
+        <div class="review-box">
+          <div class="pub-item-container">
+            <div class="pub-item-text-box">
+              <div class="pub-item pub-item-1">
+                <img class="pub-img pub-img-1" src="/img/dave.jpg" />
+              </div>
+
+              <div class="pub-item-text-box-inner">
+                <p class="pub-item-text">
+                  "From the first week I started studying at the Conservatorium
+                  in Amsterdam, this has been my second home."
+                </p>
+                <p class="pub-item-text-name">— David Aronian, Student</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="pub-item-container">
+            <div class="pub-item-text-box">
+              <div class="pub-item pub-item-1">
+                <img class="pub-img pub-img-1" src="/img/lucy.jpg" />
+              </div>
+
+              <div class="pub-item-text-box-inner">
+                <p class="pub-item-text">
+                  "Ik verwijs mijn leerlingen altijd door naar Emile wanneer zij
+                  een viool willen huren of kopen en iedereen komt tevreden
+                  terug"
+                </p>
+                <p class="pub-item-text-name">— Lucy Nguyen, Docent</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-info-box">
+
+          <div class="contact-info">
+          <ion-icon class="contact-icon" name="call-outline"></ion-icon>
+          <div class="contact-info-text">020 219 39 66</div>
+        </div>
+
+        <div class="contact-info">
+          <ion-icon class="contact-icon" name="mail-open-outline"></ion-icon>
+          <div class="contact-info-text">luthiervharten@gmail.com</div>
+        </div>
+
+        <div class="contact-info">
+          <ion-icon class="contact-icon" name="logo-instagram"></ion-icon>
+          <div class="contact-info-text">luthier.vharten</div>
+        </div>
+
+        <!-- <div class="contact-info final">
+          <ion-icon class="contact-icon" name="logo-instagram"></ion-icon>
+          <ion-icon class="contact-icon" name="logo-twitter"></ion-icon>
+          <ion-icon class="contact-icon" name="logo-facebook"></ion-icon>
+        </div> -->
+
+
+      </div>
+    </section>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

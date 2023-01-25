@@ -1,0 +1,388 @@
+/***********************************/
+/** Below 1136px */
+/***********************************/
+
+@media (max-width: 71em) {
+  .grid-contact-box {
+    grid-template-columns: 1fr;
+  }
+
+  .review-box {
+    margin-left: 4.5rem;
+  }
+  .contact-info-box {
+    justify-self: center;
+    min-width: 40rem;
+  }
+}
+
+/***********************************/
+/** Below 1056px */
+/***********************************/
+
+@media (max-width: 66em) {
+  .contact-opening-list-box {
+    margin-top: 0rem;
+  }
+
+  #map {
+    /* flex: 1; */
+    height: 40rem;
+    width: 40rem;
+    /* background-color: var(--color-light--1); */
+  }
+
+  .contact-opening {
+    /* background-color: #fff; */
+    width: 40rem;
+    padding: 3.6rem 4.6rem 0rem 4.6rem;
+  }
+
+  .contact-opening-list {
+    margin-left: 5rem;
+  }
+
+  /* .container-contact {
+    background-image: none;
+  }
+
+  .contact-box {
+    flex-direction: column-reverse;
+    gap: 4.6rem;
+  }
+
+  .contact-opening {
+    background-image: linear-gradient(
+      to right bottom,
+      rgb(255, 255, 255),
+      #fff4e6,
+      rgb(255, 232, 204)
+    );
+  } */
+}
+
+/***********************************/
+/** Below 976px */
+/***********************************/
+
+@media (max-width: 61em) {
+  /* Hero section loopt hier stuk */
+
+  html {
+    font-size: 56.25%;
+  }
+}
+
+/***********************************/
+/** Below 848px */
+/***********************************/
+
+@media (max-width: 53em) {
+  html {
+    font-size: 50%;
+  }
+
+  .section-hero {
+    background-position-x: 60%;
+  }
+
+  .btn-mobile-nav {
+    display: block;
+  }
+
+  .nav-open .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+
+  .main-nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    transform: translateX(100%);
+    background-color: rgba(255, 255, 255, 0.97);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in;
+
+    /* Hide Nav */
+    /* Not Display: none, because it doesn't allow animations */
+
+    opacity: 0;
+
+    /* Make Nav unaccesable for mouse and keybord */
+    pointer-events: none;
+
+    /* Hide it from screenreaders */
+    visibility: hidden;
+  }
+
+  .main-nav-list {
+    flex-direction: column;
+    gap: 9rem;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 4rem;
+  }
+}
+
+/***********************************/
+/** Below 768px */
+/***********************************/
+
+@media (max-width: 48em) {
+  .hero-heading-content {
+    font-size: 3.8rem;
+  }
+
+  .hero-paragraph-content,
+  .hero-paragraph-content {
+    font-size: 3rem;
+  }
+
+  .hero-grid-2 {
+    margin-top: 4rem;
+  }
+
+  .hero-grid-3 {
+    margin-top: 20rem;
+  }
+
+  /* section-koop */
+
+  .section-koop-header-content {
+    font-size: 3.4rem;
+  }
+
+  .grid-koop {
+    grid-template-columns: 1fr;
+  }
+
+  .viool-koop-title {
+    border-bottom: 1px black solid;
+  }
+
+  .card-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+
+  .viool-koop-img {
+    width: 20%;
+  }
+
+  .viool-koop-content {
+    padding: 3.2rem 12rem 4.8rem 0.8rem;
+  }
+
+  .query-pad-bot {
+    padding-bottom: 2.4rem;
+  }
+}
+/***********************************/
+/** Below 672px */
+/***********************************/
+
+@media (max-width: 42em) {
+  /* #map {
+    height: 30rem;
+    width: 30rem;
+  }
+
+  .contact-opening {
+    width: 30rem;
+    padding: 0.5rem 0.5rem 0rem 0.5rem;
+  }
+
+  .contact-opening-header {
+    margin-bottom: 1rem;
+  }
+
+  .contact-opening-list {
+    margin-left: 5rem;
+  } */
+
+  .container-contact {
+    background-image: none;
+  }
+
+  .contact-box {
+    flex-direction: column-reverse;
+    gap: 4.6rem;
+  }
+
+  .contact-opening {
+    background-image: linear-gradient(
+      to right bottom,
+      rgb(255, 255, 255),
+      #fff4e6,
+      rgb(255, 232, 204)
+    );
+  }
+
+  .contact-opening {
+    width: 40rem;
+    height: 40rem;
+    /* padding: 1rem 0.5rem 1rem 0.5rem; */
+  }
+
+  /* .contact-opening-header {
+    margin-bottom: 1rem;
+  } */
+}
+
+/***********************************/
+/** Below 656px */
+/***********************************/
+
+@media (max-width: 41em) {
+  .author-container {
+    background-color: #fff;
+  }
+
+  .author-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .author-img {
+    width: 70%;
+    height: auto;
+    display: block;
+    margin: 4rem auto;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+  .author-text-header {
+    padding: 0 2rem;
+    font-size: 3.8rem;
+  }
+
+  .author-text-para {
+    font-size: 2.4rem;
+    line-height: 1.8;
+    margin: 3rem 4rem;
+  }
+
+  .hero-grid-1 {
+    grid-template-columns: 1fr;
+  }
+
+  .step-img {
+    width: 90%;
+  }
+}
+
+/***********************************/
+/** Below 544px */
+/***********************************/
+
+@media (max-width: 34em) {
+  .heading-tertiary {
+    text-align: center;
+    font-size: 3.8rem;
+  }
+
+  .step-img-box {
+    margin-bottom: 4rem;
+  }
+
+  .step-img {
+    width: 70%;
+  }
+
+  .step-description {
+    padding: 0rem 4rem;
+  }
+
+  .section-contact {
+    padding: 9.6rem 0.5rem;
+  }
+
+  .heading-secondary-contact {
+    font-size: 3.6rem;
+  }
+
+  /* Hero section */
+  .hero-heading-box,
+  .hero-paragraph-box {
+    margin: 0 2rem;
+  }
+
+  /* Section koop */
+  .viool-koop-content {
+    padding: 3.2rem 0rem 4.8rem 0rem;
+    margin-right: 6rem;
+  }
+}
+
+/***********************************/
+/** Below 528px */
+/***********************************/
+
+@media (max-width: 33em) {
+}
+
+/***********************************/
+/** Below 480px */
+/***********************************/
+
+@media (max-width: 30em) {
+  .viool-koop-img {
+    width: 30%;
+  }
+
+  .container-2 {
+    padding: 0;
+  }
+
+  /* section-author */
+  .section-author {
+    padding: 2rem;
+  }
+
+  .author-text-para {
+    font-size: 2.2rem;
+  }
+}
+/***********************************/
+/** Below 416px */
+/***********************************/
+
+@media (max-width: 26em) {
+  .section-hero {
+    background-position-x: 69%;
+  }
+
+  .viool-koop-img {
+    width: 40%;
+  }
+}
+
+/***********************************/
+/** Below 384px */
+/***********************************/
+
+@media (max-width: 24em) {
+  .btn-container .btn {
+    padding: 1.6rem 1.8rem;
+  }
+}
